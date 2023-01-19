@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- 
+        requirements
+        cal our weight on diff planets    
+        convert our mass in weight on diff planets
+        weight = mass X gravity
+        1 input box
+        1 dropdown
+        button
+        arr of objs => plannet name, gravity      
+     -->
+
+    <div>
+        <div class="massContainer">
+
+            <p>Please enter your mass</p>
+            <input id="inputWeight" type="number">
+        </div>
+        <div class="planetContainer">
+
+            <p>Please select your planet to visit</p>
+            <select name="selectPlanet" id="selectPlanet"></select>
+        </div>
+    </div>
+    <div class="button">
+        <button onclick="calcWeight()" id="button">Calculate Weight</button>
+    </div>
+    <div class="h1AndImgContainer">
+
+        <h1 id="h1"></h1>
+        <img id="image" src="" alt="">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+
+</html>
